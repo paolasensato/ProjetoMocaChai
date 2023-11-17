@@ -1,0 +1,20 @@
+{
+  "name": "projetomocachai",
+  "version": "1.0.0",
+  "description": "Projeto com MocaJs e Chai realizado em aula prática de QA",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha 'tests/**/*.test.js'"
+  },
+  "author": "Paola",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  }
+}
